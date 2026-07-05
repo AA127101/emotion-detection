@@ -1,0 +1,15 @@
+unsloth
+torch>=2.1
+transformers>=4.40
+trl>=0.9
+peft>=0.10
+accelerate>=0.30
+bitsandbytes>=0.43
+datasets>=2.18
+sentencepiece
+safetensors
+evaluate
+scikit-learn>=1.3
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7

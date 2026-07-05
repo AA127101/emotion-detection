@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Model artifacts and checkpoints (too large for git)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoint-*/
+runs/
+wandb/
+
+# Local outputs generated during training
+emotion_v3/
+outputs/
+
+# Environment / secrets
+.env
+.env.*
